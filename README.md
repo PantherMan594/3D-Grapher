@@ -4,8 +4,8 @@ To get started, run the appropriate script for your operating system. If that do
 1. Setup the directories "out/production/3D Grapher" inside the 3D Grapher folder
 2. Open terminal in the root directory (the one containing the scripts, "src", and "lib")
 3. Run the following commands, in order (the first one compiles the files into the out/production/3D Grapher directory that you just created. The second runs the compiled classes):
-    a. `javac -d "out/production/3D Grapher" -classpath "lib/core.jar" src/com/pantherman594/*`
-    b. And one of the following, the first for Linux or Mac OSX, the other for Windows:
+    1. `javac -d "out/production/3D Grapher" -classpath "lib/core.jar" src/com/pantherman594/*`
+    2. And one of the following, the first for Linux or Mac OSX, the other for Windows:
         * `java -Dfile.encoding=UTF-8 -classpath "out/production/3D Grapher:lib/core.jar:lib/jogl-all.jar:lib/gluegen-rt.jar" com.pantherman594.Grapher`
         * `java -Dfile.encoding=UTF-8 -classpath "out/production/3D Grapher;lib/core.jar;lib/jogl-all.jar;lib/gluegen-rt.jar" com.pantherman594.Grapher`
 Once a window opens, see the instructions and information at the top. Try out some functions and play with the settings! (some suggestions are: x^2-y^2, sin(xy))
